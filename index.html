@@ -16,6 +16,26 @@
 </head>
 <body class="center">
 
+    <div class="player">
+        <span class="song-name">Author - Song Name</span>
+        <div class="song-buttons">
+            <svg class="prev" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z" fill="white"/>
+                <path d="M16 16V8L11 12L16 16ZM9 8V16H11V8H9Z" fill="white"/>
+            </svg>
+            <svg class="play-pause" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z" fill="white"/>
+                <path d="M9 17L17 12L9 7V17Z" fill="white"/>
+            </svg>
+            <svg class="next" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z" fill="white"/>
+                <path d="M8 16L13 12L8 8V16ZM13 12V16H15V8H13V12Z" fill="white"/>
+            </svg>
+        </div>
+        <audio class="audio-player" src="sounds/fuck you.mp3" preload="auto"></audio>
+    </div>
+    <script src="music.js"></script>
+
     <div class="center card">
         <div class="avatar">
             <img src="img/sanitar.png" draggable="false" onclick="play_easter()">
@@ -35,7 +55,6 @@
             <span>gamer</span>
             <span>freak</span>
             <span>team lead</span>
-            <span>freak</span>
         </div>
         <h2 class="subtitle"><span class="typed"></span></h2>
         

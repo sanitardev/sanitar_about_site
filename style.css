@@ -14,6 +14,8 @@ body {
     background-size: 200% 200%;
     overflow:hidden;
 
+    font-family: "Prompt", sans-serif;
+
     animation: gradient 20s linear infinite;
 }
 
@@ -61,7 +63,6 @@ body {
     margin-bottom: 20px;
     text-align: center;
     font-size: 28px;
-    font-family: "Prompt";
     font-weight: 400;
     color: white;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
@@ -71,7 +72,6 @@ body {
     text-align: center;
     font-size: 22px;
     font-weight: 300;
-    font-family: "Prompt";
     color: white;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
     margin-bottom: 40px;
@@ -93,9 +93,9 @@ body {
   outline: none;
   border: none;
   border-radius: 10px;
-  font-family: "Prompt", sans-serif;
   font-weight: 400;
   color: white;
+  font-family: "Prompt", sans-serif;
 
   display: inline-flex;
   padding: 6px 10px;
@@ -118,6 +118,25 @@ body {
 
 .footer a {
   color: white;
-  font-family: "Prompt";
   font-weight: 300;
+}
+
+.player {
+  position: fixed;
+  top: 5px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.song-buttons {
+  scale: 125%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.song-buttons svg {
+  cursor: pointer;
 }
